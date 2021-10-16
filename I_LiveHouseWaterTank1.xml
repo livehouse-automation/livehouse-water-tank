@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<implementation>
+    <specVersion>
+        <major>1</major>
+        <minor>5</minor>
+    </specVersion>
+    <settings>
+        <protocol>cr</protocol>
+    </settings>
+    <files>L_LiveHouseWaterTank1.lua</files>
+    <functions></functions>
+    <startup>startup</startup>
+    <actionList>
+    </actionList>
+</implementation>

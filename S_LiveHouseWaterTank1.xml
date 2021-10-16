@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<scpd xmlns="urn:schemas-upnp-org:service-1-0">
+    <specVersion>
+        <major>1</major>
+        <minor>0</minor>
+    </specVersion>
+    <serviceStateTable>
+        <stateVariable sendEvents="yes">
+            <name>SurfaceArea</name>
+            <dataType>ui4</dataType>
+            <shortCode>surfacearea</shortCode>
+            <defaultValue>100</defaultValue>
+        </stateVariable>
+        <stateVariable sendEvents="yes">
+            <name>PercentFull</name>
+            <dataType>ui3</dataType>
+            <shortCode>percentfull</shortCode>
+        </stateVariable>
+        <stateVariable sendEvents="yes">
+            <name>MaxLevel</name>
+            <dataType>ui4</dataType>
+            <shortCode>maxlevel</shortCode>
+            <defaultValue>30</defaultValue>
+        </stateVariable>
+        <stateVariable sendEvents="yes">
+            <name>MinLevel</name>
+            <dataType>ui4</dataType>
+            <shortCode>minlevel</shortCode>
+            <defaultValue>150</defaultValue>
+        </stateVariable>
+        <stateVariable sendEvents="yes">
+            <name>DistanceDeviceID</name>
+            <dataType>ui4</dataType>
+            <shortCode>distancedeviceid</shortCode>
+            <defaultValue>100</defaultValue>
+        </stateVariable>
+    </serviceStateTable>
+    <actionList>
+    </actionList>
+</scpd>
